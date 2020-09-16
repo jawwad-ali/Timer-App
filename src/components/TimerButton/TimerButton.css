@@ -1,0 +1,16 @@
+.button-value{
+    text-align: center;
+    width: 200px;
+    background: pink;
+    padding:15px;
+    border-radius: 50px;
+}
+.button-value:nth-child(1){
+    background-image: linear-gradient(#fe8c00, #f83600) !important;
+    color:white;
+    cursor: pointer;
+}
+.button-value:nth-child(2){
+    background-image: linear-gradient( #d38312, #a83279) !important;
+    color:white;
+}
