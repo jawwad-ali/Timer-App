@@ -11,7 +11,7 @@ interface IState {
     seconds: number
 }
 
-let interval: any
+let interval: ReturnType<typeof setInterval>
 
 class Timer extends Component<IProps, IState> {
     constructor(props: any) {
